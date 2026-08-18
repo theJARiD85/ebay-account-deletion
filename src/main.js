@@ -2,7 +2,7 @@ import { createHash, createHmac, createPublicKey, createVerify } from "node:cryp
 
 const APPWRITE_DATABASE_ID = "keepflip";
 const CONNECTIONS_TABLE_ID = "ebay_connections";
-const DELETION_PATH = "/webhooks/ebay/account-deletion";
+const DELETION_PATH = "https://6a83f01600057f828f28.sfo.appwrite.run/webhooks/ebay/account-deletion";
 const PUBLIC_KEY_CACHE_TTL_MS = 60 * 60 * 1_000;
 const APP_TOKEN_CACHE_SAFETY_WINDOW_MS = 60 * 1_000;
 const MAX_NOTIFICATION_BYTES = 1_000_000;
